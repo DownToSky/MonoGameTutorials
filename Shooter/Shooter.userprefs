@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Shooter/Shooter.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shooter/Game1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shooter/Player.cs">
     <Files>
       <File FileName="Shooter/Game1.cs" Line="1" Column="1" />
+      <File FileName="Shooter/Player.cs" Line="9" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

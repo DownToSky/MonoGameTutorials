@@ -2,6 +2,7 @@
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Shooter;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.Input;
 
@@ -12,11 +13,13 @@ namespace Shooter
 	/// </summary>
 	public class Game1 : Game
 	{
+		Player player;
 		GraphicsDeviceManager graphics;
 		SpriteBatch spriteBatch;
 
 		public Game1 ()
 		{
+			player = new Player();
 			graphics = new GraphicsDeviceManager (this);
 			Content.RootDirectory = "Content";
 		}
@@ -44,6 +47,10 @@ namespace Shooter
 			spriteBatch = new SpriteBatch (GraphicsDevice);
 
 			//TODO: use this.Content to load your game content here 
+			Vector2 playerPosition = new Vector2 (GraphicsDevice.Viewport.TitleSafeArea.X,
+				                         GraphicsDevice.Viewport.TitleSafeArea.Y + 
+											GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
+			player.Initialize (Content.Load<Texture2D> ("Graphics\\player"), playerPosition);
 		}
 
 		/// <summary>
@@ -71,10 +78,13 @@ namespace Shooter
 		/// <param name="gameTime">Provides a snapshot of timing values.</param>
 		protected override void Draw (GameTime gameTime)
 		{
-			graphics.GraphicsDevice.Clear (Color.CornflowerBlue);
+			
+			graphics.GraphicsDevice.Clear (Color.FloralWhite);
             
 			//TODO: Add your drawing code here
-            
+			spriteBatch.Begin();
+			player.Draw (spriteBatch);
+			spriteBatch.End ();
 			base.Draw (gameTime);
 		}
 	}

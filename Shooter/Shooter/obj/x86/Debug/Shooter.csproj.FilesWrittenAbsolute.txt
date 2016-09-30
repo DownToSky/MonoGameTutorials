@@ -18,3 +18,15 @@
 /home/downtosky/Code/Tutorial-Shooter/Shooter/Shooter/bin/Debug/MonoGame.Framework.dll
 /home/downtosky/Code/Tutorial-Shooter/Shooter/Shooter/bin/Debug/OpenTK.dll
 /home/downtosky/Code/Tutorial-Shooter/Shooter/Shooter/bin/Debug/NVorbis.dll
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/obj/x86/Debug/Shooter.Icon.ico
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/obj/x86/Debug/Shooter.exe
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/obj/x86/Debug/Shooter.exe.mdb
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/MonoGame.Framework.dll
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/OpenTK.dll
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/NVorbis.dll
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/OpenTK.dll.config
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/Shooter.exe.mdb
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/Shooter.exe
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/Content/player.xnb
+/home/downtosky/Code/MonogamesTutorials/Shooter/Shooter/bin/Debug/Content/Graphics/player.xnb
